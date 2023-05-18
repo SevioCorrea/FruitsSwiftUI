@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220947622A166F6600424FBA /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220947612A166F6600424FBA /* FruitCardView.swift */; };
 		221EADDB2A157F6D009F6883 /* FruitsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EADDA2A157F6D009F6883 /* FruitsSwiftUIApp.swift */; };
 		221EADDD2A157F6D009F6883 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EADDC2A157F6D009F6883 /* ContentView.swift */; };
 		221EADDF2A157F6E009F6883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221EADDE2A157F6E009F6883 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220947612A166F6600424FBA /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		221EADD72A157F6D009F6883 /* FruitsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221EADDA2A157F6D009F6883 /* FruitsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsSwiftUIApp.swift; sourceTree = "<group>"; };
 		221EADDC2A157F6D009F6883 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2209475F2A166F0100424FBA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				221EADDA2A157F6D009F6883 /* FruitsSwiftUIApp.swift */,
+				221EADDC2A157F6D009F6883 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		220947602A166F3900424FBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				220947612A166F6600424FBA /* FruitCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		221EADCE2A157F6D009F6883 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +70,8 @@
 		221EADD92A157F6D009F6883 /* FruitsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				221EADDA2A157F6D009F6883 /* FruitsSwiftUIApp.swift */,
-				221EADDC2A157F6D009F6883 /* ContentView.swift */,
+				220947602A166F3900424FBA /* View */,
+				2209475F2A166F0100424FBA /* App */,
 				221EADDE2A157F6E009F6883 /* Assets.xcassets */,
 				221EADE02A157F6E009F6883 /* Preview Content */,
 			);
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220947622A166F6600424FBA /* FruitCardView.swift in Sources */,
 				221EADDD2A157F6D009F6883 /* ContentView.swift in Sources */,
 				221EADDB2A157F6D009F6883 /* FruitsSwiftUIApp.swift in Sources */,
 			);
