@@ -20,6 +20,7 @@
 		229C0CFA2A1E5BB5006E7971 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C0CF92A1E5BB5006E7971 /* FruitDetailView.swift */; };
 		229C0CFC2A1E616B006E7971 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C0CFB2A1E616B006E7971 /* FruitHeaderView.swift */; };
 		229C0CFE2A1E6A8B006E7971 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C0CFD2A1E6A8B006E7971 /* SourceLinkView.swift */; };
+		22AE86482A20EFEA00909328 /* FruitsNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE86472A20EFEA00909328 /* FruitsNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		229C0CF92A1E5BB5006E7971 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		229C0CFB2A1E616B006E7971 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		229C0CFD2A1E6A8B006E7971 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		22AE86472A20EFEA00909328 /* FruitsNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				227933B42A1CF8F900222BE9 /* FruitRowView.swift */,
 				229C0CFB2A1E616B006E7971 /* FruitHeaderView.swift */,
 				229C0CFD2A1E6A8B006E7971 /* SourceLinkView.swift */,
+				22AE86472A20EFEA00909328 /* FruitsNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				229C0CFA2A1E5BB5006E7971 /* FruitDetailView.swift in Sources */,
 				221EADDD2A157F6D009F6883 /* ContentView.swift in Sources */,
 				229C0CFC2A1E616B006E7971 /* FruitHeaderView.swift in Sources */,
+				22AE86482A20EFEA00909328 /* FruitsNutrientsView.swift in Sources */,
 				22826C802A1BBC7600F32152 /* FruitsData.swift in Sources */,
 				22826C7A2A1BB22800F32152 /* OnboardingView.swift in Sources */,
 				221EADDB2A157F6D009F6883 /* FruitsSwiftUIApp.swift in Sources */,
