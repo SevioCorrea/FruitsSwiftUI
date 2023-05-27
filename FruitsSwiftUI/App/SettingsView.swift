@@ -19,8 +19,7 @@ struct SettingsView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: 20) {
                     // MARK: - Section 1
-                    GroupBox(label: SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
-                    ) {
+                    GroupBox(label: SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")) {
                         Divider().padding(.vertical, 5)
                         
                         HStack(alignment: .center) {
@@ -38,6 +37,14 @@ struct SettingsView: View {
                     // MARK: - Section 2
                     
                     // MARK: - Section 3
+                    GroupBox(label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")) {
+                        
+                        SettingsRowView(name: "Developer", content: "Sévio")
+                        SettingsRowView(name: "Designer", content: "Sévio")
+                        SettingsRowView(name: "LinkedIn", linkLabel: "SevioCorrea", linkedin: "https://www.linkedin.com/in/seviocorrea/")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                        
+                    }
                     
                 } //: VStack
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
