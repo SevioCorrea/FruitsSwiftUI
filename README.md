@@ -1,5 +1,11 @@
 # FruitsSwiftUI
 
+<img width="1440" alt="Captura de Tela 2023-05-28 às 12 41 35" src="https://github.com/SevioCorrea/FruitsSwiftUI/assets/102820124/06a65313-d370-4d70-aa48-64f3fe612124">
+<img width="1440" alt="Captura de Tela 2023-05-28 às 12 42 49" src="https://github.com/SevioCorrea/FruitsSwiftUI/assets/102820124/d3f23889-7db4-4825-be2a-b6f1da5b265a">
+<img width="1440" alt="Captura de Tela 2023-05-28 às 12 43 07" src="https://github.com/SevioCorrea/FruitsSwiftUI/assets/102820124/041a7261-d38d-422f-b040-f6c878dcfa0c">
+<img width="1440" alt="Captura de Tela 2023-05-28 às 12 43 57" src="https://github.com/SevioCorrea/FruitsSwiftUI/assets/102820124/d9737023-d0be-472a-b2bc-df3b7be19d10">
+
+
 # Portuguese 🇧🇷 English below
 
 ## Descrição
